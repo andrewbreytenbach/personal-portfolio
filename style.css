@@ -1,0 +1,162 @@
+/* Global styles */
+html {
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #eee;
+  background-color: #111;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #222;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #444;
+}
+
+/* Main section styles */
+section {
+  padding: 50px 20px;
+}
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gallery a {
+  position: relative;
+  display: block;
+}
+
+.gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.gallery .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery .overlay h3,
+.gallery .overlay p {
+  margin: 0;
+  text-align: center;
+}
+
+.gallery a:hover .overlay {
+  opacity: 1;
+}
+
+/* Contact form styles */
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #eee;
+}
+
+form input[type="submit"] {
+  background-color: #222;
+  color: #eee;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #444;
+}
+
+/* Footer styles */
+footer {
+  padding: 20px;
+  background-color: #222;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
