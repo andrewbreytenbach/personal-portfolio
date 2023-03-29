@@ -44,6 +44,7 @@ p {
 	line-height:25px;
 	font-size:14px;
 }
+
 h2 {
 	font-size:15px;
 	color:#353535!important;
@@ -152,7 +153,7 @@ dfn {
 	font-style:italic;
 }
 mark {
-	background:#ff0;
+	background:#ebe8c5;
 	color:#000;
 }
 p,pre {
@@ -300,9 +301,9 @@ table {
 	padding:20px 0;
 }
 .dark-box:hover,.dark-box:focus {
-	-webkit-box-shadow: 0px 3px 0px 0px #FFE801;
-	-moz-box-shadow: 0px 3px 0px 0px #FFE801;
-	box-shadow: 0px 3px 0px 0px #FFE801;
+	-webkit-box-shadow: 0px 3px 0px 0px #ebe8c5;
+	-moz-box-shadow: 0px 3px 0px 0px #ebe8c5;
+	box-shadow: 0px 3px 0px 0px #ebe8c5;
 }
 .box-hover {
 	transition:all 500ms ease-in-out;
@@ -584,8 +585,13 @@ h1.arrow span {
 	background: #015e26;
 }
 
+.color-bg-1 {
+	background: #ebe8c5;
+	color: #015e26;
+}
+
 .color-bg a {
-    color: #FFE800;
+    color: #ebe8c5;
 }
 .color-bg h6, .color-bg p {
     color: white;
@@ -611,7 +617,7 @@ h1.arrow span {
 	color: #8C8C8C;
 }
 .color-bg h1.arrow span {
-    color: #FFE800;
+    color: #ebe8c5;
 }
 .color-bg h1.arrow {
     color: #FFF;
