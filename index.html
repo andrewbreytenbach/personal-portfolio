@@ -27,7 +27,7 @@
             <div class="icon-list">
               <a href="index.html#home"><span>Home</span></a>
               <a href="index.html#about"><span>About</span></a>
-              <a href="index.html#work"><span>Work</span></a>
+              <a href="index.html#projects"><span>Projects</span></a>
               <a href="https://github.com/andrewbreytenbach"><span>GitHub</span></a>
               <a href="index.html#contact"><span>Contact</span></a>
             </div>
@@ -49,14 +49,16 @@
     </div>
     <div class="row">
       <div class="col-md-8 col-md-offset-1 inner">
-        <h1 class="animated fadeInDown">
+        <h1 class="animated fadeInDown mobile-text">
           An<span style="color:#ebe8c5">dr</span>ew<br />
           <span>Brey<span style="color:#015e26">ten</span>bach</span>
         </h1>
-        <h3 class="animated fadeInUp delay-05s"><span class="rotate"> Full Stack, Front End, Back End, HTML, CSS,
-            JavaScript, Node.js, React, Express.js, .NET, C#</span></h3>
+        <h3 class="animated fadeInUp delay-05s mobile-text">
+          <span class="rotate">Full Stack, Front End, Back End, HTML, CSS,
+            JavaScript, Node.js, React, Express.js, .NET, C#</span>
+        </h3>
       </div>
-    </div>
+    </div>    
   </div>
 </section>
 <section class="intro text-center section-padding color-bg" id="about">
@@ -75,7 +77,8 @@
           adhere to industry best practices and accessibility standards.</p>
         <p>As a detail-oriented developer, I place a strong emphasis on clean, maintainable, and modular code. I am
           well-versed in CSS preprocessors and have experience with build tools that help me streamline my development
-          process and deliver high-quality projects on time. Additionally, my I am expanding my knowledge in back-end development with
+          process and deliver high-quality projects on time. Additionally, my I am expanding my knowledge in back-end
+          development with
           languages such as C# and .NET, allowing me to create dynamic and secure web applications that are scalable and
           performant.</p>
         <p>Collaboration and communication are key components of my work ethic. I have successfully collaborated with
@@ -93,97 +96,72 @@
     </div>
   </div>
 </section>
-<div class="container-fluid" id="work">
-  <div class="row color-bg-1">
-    <div class="col-md-6 about-text">
-      <h6>The Other Match.com</h6>
-      <p>This code defines a web application that enables users to search for books and display their corresponding
-        movie adaptations. It uses jQuery to select and manipulate HTML elements, and also uses the Open Library API and The Movie
-        Database (TMDB) API to fetch book and movie data. The code defines several event listeners, including one for
-        the search button click, which executes the searchForBooks function. This function fetches data from the Open
-        Library API using the search term entered by the user, and then creates book cards for up to 5 books based on
-        the search results.</p><br>
-      <a href="https://github.com/andrewbreytenbach/movie-book-match" class="weight-outline-btn">Read more</a>
-    </div>
-    <div class="col-md-6 nopadding features-intro-img">
-      <div class="about-image-1" style="background-image:url(img/gray-match.jpg)"></div>
-    </div>
-  </div>
-  <div class="row color-bg">
-    <div class="col-md-6 nopadding features-intro-img">
-      <div class="about-image-2" style="background-image:url(img/gray-weather.jpg)"></div>
-    </div>
-    <div class="col-md-6 about-text">
-      <h6>Weather App</h6>
-      <p>The goal of this project was to create a weather application using JavaScript code.
 
-        It declares constants for an API key and the base URL for the OpenWeatherMap API. It selects DOM elements
-        using querySelector and initializes variables for the city and search history.
-
-        It loads the search history from localStorage if it exists, using JSON.parse to convert the stored string to
-        an array of strings. It then renders the search history to the page using a function.</p>
-      <br>
-      <a href="https://github.com/andrewbreytenbach/weather-challenge" class="weight-outline-btn">Read
-        more</a>
+<section class="text-center section-padding" id="projects">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="arrow" style="color:#015e26">Projects</h1>
+      </div>
     </div>
-  </div>
-  <div class="row color-bg-1">
-    <div class="col-md-6 about-text">
-      <h6>Banking App Using C#</h6>
-      <p>A sample C# programming code for real time Bank application program is given below.</p>
-      <p>This program will do all of the following:</p>
-      <ul>
-        <li>Creating new account – To create a new account</li>
-        <li>Cash Deposit – To Deposit some amount in newly created account</li>
-        <li>Cash withdrawal – To Withdraw some amount from your account</li>
-        <li>Display Account information – It will display all informations of the existing accounts</li>
-        <li>Log out</li>
-        <li>Clearing the output screen and display available options</li>
-      </ul><br>
-      <a href="https://github.com/andrewbreytenbach/banking-app-cli" class="weight-outline-btn">Read more</a>
+    <br><br>
+    <div class="row">
+      <div class="col-md-6 col-sm-12 blogpost">
+          <div class="card">
+              <img src="img/Match.com.png" class="card-img-top portfolio-img" alt="The Other Match.com">
+              <div class="card-body">
+                  <h2 class="card-title">The Other Match.com</h2>
+                  <a href="https://github.com/andrewbreytenbach/movie-book-match" class="btn btn-outline-primary">Read more</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6 col-sm-12 blogpost">
+          <div class="card">
+              <img src="img/color-WeatherApp.png" class="card-img-top portfolio-img" alt="Weather App">
+              <div class="card-body">
+                  <h2 class="card-title">Weather App</h2>
+                  <a href="https://github.com/andrewbreytenbach/weather-challenge" class="btn btn-outline-primary">Read more</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6 col-sm-12 blogpost">
+        <div class="card">
+            <img src="img/color-banking-cli.jpeg" class="card-img-top portfolio-img" alt="Banking App">
+            <div class="card-body">
+                <h2 class="card-title">Banking App using C#</h2>
+                <a href="https://github.com/andrewbreytenbach/banking-app-cli" class="btn btn-outline-primary">Read more</a>
+            </div>
+        </div>
     </div>
-    <div class="col-md-6 nopadding features-intro-img">
-      <div class="about-image-3" style="background-image:url(img/gray-banking-cli.jpg)"></div>
+    <div class="col-md-6 col-sm-12 blogpost">
+        <div class="card">
+            <img src="img/color-quiz.png" class="card-img-top portfolio-img" alt="Quiz">
+            <div class="card-body">
+                <h2 class="card-title">JavaScript Quiz</h2>
+                <a href="https://github.com/andrewbreytenbach/coding-game-quiz" class="btn btn-outline-primary">Read more</a>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="row color-bg">
-    <div class="col-md-6 nopadding features-intro-img">
-      <div class="about-image-4" style="background-image:url(img/gray-quiz.jpg)"></div>
+    <div class="col-md-6 col-sm-12 blogpost">
+        <div class="card">
+            <img src="img/work-day-scheduler.png" class="card-img-top portfolio-img" alt="To Do List">
+            <div class="card-body">
+                <h2 class="card-title">Work Day To-Do List</h2>
+                <a href="https://github.com/andrewbreytenbach/work-day-scheduler" class="btn btn-outline-primary">Read more</a>
+            </div>
+        </div>
     </div>
-    <div class="col-md-6 about-text">
-      <h6>JavaScript Quiz</h6>
-      <p>The goal of this project was to create an interactive JavaScript quiz that allows the user to save their
-        score and continue to take the quiz and save their score to compare their progress over time.</p>
-      <br>
-      <a href="https://github.com/andrewbreytenbach/coding-game-quiz" class="weight-outline-btn">Read
-        more</a>
+    <div class="col-md-6 col-sm-12 blogpost">
+        <div class="card">
+            <img src="img/color-contosocrafts.png" class="card-img-top portfolio-img" alt="ContosoCrafts">
+            <div class="card-body">
+                <h2 class="card-title">ContosoCrafts Website Using .NET</h2>
+                <a href="https://github.com/andrewbreytenbach/contosocraftsbuild" class="btn btn-outline-primary">Read more</a>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="row color-bg-1">
-    <div class="col-md-6 about-text">
-      <h6>Work Day To-Do List</h6>
-      <p>The goal of this project was to create an interactive work day scheduler that allows users to input events
-        and then save them for later use. It also is visually accesible, telling users what time it is based on the
-        color of the time blocks.</p><br>
-      <a href="https://github.com/andrewbreytenbach/work-day-scheduler" class="weight-outline-btn">Read more</a>
-    </div>
-    <div class="col-md-6 nopadding features-intro-img">
-      <div class="about-image-5" style="background-image:url(img/gray-work-day-scheduler.jpg)"></div>
-    </div>
-  </div>
-  <div class="row color-bg">
-    <div class="col-md-6 nopadding features-intro-img">
-      <div class="about-image-6" style="background-image:url(img/gray-contosocrafts.jpg)"></div>
-    </div>
-    <div class="col-md-6 about-text">
-      <h6>ContosoCrafts Website Using .NET</h6>
-      <p>This website was built by following along with Microsoft's Learn .NET online video series.</p>
-      <br>
-      <a href="https://github.com/andrewbreytenbach/contosocraftsbuild" class="weight-outline-btn">Read
-        more</a>
-    </div>
-  </div>
 </div>
+</section>
 <section class="text-center section-padding contact-wrap" id="contact">
   <div class="container">
     <div class="row">
@@ -235,10 +213,11 @@
 <script src="js/script.js"></script>
 <script type="text/javascript">
   $(".rotate").textrotator({
-    animation: "fade", 
-    separator: ",", 
-    speed: 2000 
+    animation: "fade",
+    separator: ",",
+    speed: 2000
   });
 </script>
 </body>
+
 </html>
