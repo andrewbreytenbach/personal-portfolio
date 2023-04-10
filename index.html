@@ -1,223 +1,466 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Andrew Breytenbach | Full Stack Developer</title>
-  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="assets/lightbox/css/lightbox.css" rel="stylesheet">
-  <link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
-  <link href="assets/flexslider/flexslider.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/animate.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Andrew Breytenbach | Full Stack Web Developer</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body id="top">
-  <header id="home">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="menu-wrap">
-          <nav class="menu">
-            <div class="icon-list">
-              <a href="index.html#home"><span>Home</span></a>
-              <a href="index.html#about"><span>About</span></a>
-              <a href="index.html#projects"><span>Projects</span></a>
-              <a href="https://github.com/andrewbreytenbach"><span>GitHub</span></a>
-              <a href="index.html#contact"><span>Contact</span></a>
-            </div>
-          </nav>
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="/Users/andrewbreytenbach/personal-portfolio/img/jekyll-and-hyde-removebg-preview.png" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Andrew Breytenbach</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/andrewbreytenbach?tab=repositories" class="github"><i class="bx bxl-github"></i></a>
+          <a href="www.linkedin.com/in/andrew-breytenbach" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
-        <button class="menu-button" id="open-button"></button>
       </div>
-    </div>
-  </header>
-</body>
 
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+              <span>Portfolio</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
 
-<section class="hero" id="hero">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-right navicon">
-        <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>
-      </div>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Andrew Breytenbach</h1>
+      <p>I'm a <span class="typed"
+          data-typed-items="Front-End Developer, Back-End Developer, Full-Stack Developer"></span></p>
     </div>
-    <div class="row">
-      <div class="col-md-8 col-md-offset-1 inner">
-        <h1 class="animated fadeInDown mobile-text">
-          An<span style="color:#ebe8c5">dr</span>ew<br />
-          <span>Brey<span style="color:#015e26">ten</span>bach</span>
-        </h1>
-        <h3 class="animated fadeInUp delay-05s mobile-text">
-          <span class="rotate">Full Stack, Front End, Back End, HTML, CSS,
-            JavaScript, Node.js, React, Express.js, .NET, C#</span>
-        </h3>
-      </div>
-    </div>    
-  </div>
-</section>
-<section class="intro text-center section-padding color-bg" id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2 wp1">
-        <h1 class="arrow"><span style="color:#ebe8c5">About me</span> </h1>
-        <p>As a full stack developer with a strong interest in front-end development, I have honed my skills in creating
-          visually appealing and fully responsive web applications. My experience in both front-end and back-end
-          development allows me to develop complete and functional web solutions that meet the needs of businesses and
-          their users.</p>
-        <p>With my strong technical background and proficiency in a wide range of front-end technologies, including
-          HTML5, CSS3, and JavaScript (ES6+), I am able to craft engaging, user-friendly experiences that stand out in
-          today's competitive digital landscape. I am also well-versed in various modern front-end libraries and
-          frameworks, which I leverage to develop and maintain websites, web applications, and digital products that
-          adhere to industry best practices and accessibility standards.</p>
-        <p>As a detail-oriented developer, I place a strong emphasis on clean, maintainable, and modular code. I am
-          well-versed in CSS preprocessors and have experience with build tools that help me streamline my development
-          process and deliver high-quality projects on time. Additionally, my I am expanding my knowledge in back-end
-          development with
-          languages such as C# and .NET, allowing me to create dynamic and secure web applications that are scalable and
-          performant.</p>
-        <p>Collaboration and communication are key components of my work ethic. I have successfully collaborated with
-          multidisciplinary teams to achieve shared goals and deliver exceptional end products. My ability to
-          communicate effectively allows me to translate complex technical concepts into digestible information for
-          technical and non-technical stakeholders.</p>
-        <p>Continual learning and self-improvement are at the core of my professional philosophy. I stay up-to-date with
-          the latest industry trends and emerging technologies, ensuring that my skills remain relevant and that I am
-          always equipped to provide innovative solutions to any challenge.</p>
-        <p>In summary, as an accomplished full stack developer, I am committed to using my extensive skill set and
-          passion for innovation to create complete and functional web solutions that meet the needs of businesses and
-          their users. I am excited to bring my expertise to your team and contribute to the continued success of your
-          projects.</p>
-      </div>
-    </div>
-  </div>
-</section>
+  </section><!-- End Hero -->
 
-<section class="text-center section-padding" id="projects">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="arrow" style="color:#015e26">Projects</h1>
-      </div>
-    </div>
-    <br><br>
-    <div class="row">
-      <div class="col-md-6 col-sm-12 blogpost">
-          <div class="card">
-              <img src="img/Match.com.png" class="card-img-top portfolio-img" alt="The Other Match.com">
-              <div class="card-body">
-                  <h2 class="card-title">The Other Match.com</h2>
-                  <a href="https://github.com/andrewbreytenbach/movie-book-match" class="btn btn-outline-primary">Read more</a>
-              </div>
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <br>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="/Users/andrewbreytenbach/personal-portfolio/img/IMG_8850.JPG" class="img-fluid" alt="">
           </div>
-      </div>
-      <div class="col-md-6 col-sm-12 blogpost">
-          <div class="card">
-              <img src="img/color-WeatherApp.png" class="card-img-top portfolio-img" alt="Weather App">
-              <div class="card-body">
-                  <h2 class="card-title">Weather App</h2>
-                  <a href="https://github.com/andrewbreytenbach/weather-challenge" class="btn btn-outline-primary">Read more</a>
-              </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Full-Stack Web Developer</h3>
+            <p>I am a passionate and dedicated front-end web developer with experience in creating
+              visually appealing and fully responsive web applications. My strong technical background and proficiency
+              in a wide range of front-end technologies enable me to craft engaging, user-friendly experiences that
+              stand out in today's competitive digital landscape. </p>
+
+              <p>My expertise lies in HTML5, CSS3, JavaScript (ES6+), and various modern front-end
+              libraries and frameworks. I have a proven track record of successfully utilizing these technologies to
+              develop and maintain websites, web applications, and digital products that adhere to industry best
+              practices and accessibility standards. </p>
+
+            <p>As a detail-oriented developer, I place a strong emphasis on clean, maintainable, and
+              modular code, always striving for optimal performance and seamless cross-browser compatibility. I am
+              well-versed in CSS preprocessors and have experience with build tools that help me streamline my
+              development process and deliver high-quality projects on time. </p>
+
+              <p>Collaboration and communication are key components of my work ethic. I have
+              successfully collaborated with multidisciplinary teams to achieve shared goals and deliver exceptional end
+              products. My ability to communicate effectively allows me to translate complex technical concepts into
+              digestible information for technical and non-technical stakeholders. </p>
+
+              <p>Continual learning and self-improvement are at the core of my professional philosophy.
+              I stay up-to-date with the latest industry trends and emerging technologies, ensuring that my skills
+              remain relevant and that I am always equipped to provide innovative solutions to any challenge. </p>
+
+              <p>In summary, as an accomplished front-end web developer, I am committed to using my
+              extensive skill set and passion for innovation to create captivating, user-centered web experiences. I am
+              excited to bring my expertise to your team and contribute to the continued success of your projects. </p>
           </div>
+        </div>
+
       </div>
-      <div class="col-md-6 col-sm-12 blogpost">
-        <div class="card">
-            <img src="img/color-banking-cli.jpeg" class="card-img-top portfolio-img" alt="Banking App">
-            <div class="card-body">
-                <h2 class="card-title">Banking App using C#</h2>
-                <a href="https://github.com/andrewbreytenbach/banking-app-cli" class="btn btn-outline-primary">Read more</a>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Here is a summary of what I have learned and what I am comfortable working with.</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-sm-12 blogpost">
-        <div class="card">
-            <img src="img/color-quiz.png" class="card-img-top portfolio-img" alt="Quiz">
-            <div class="card-body">
-                <h2 class="card-title">JavaScript Quiz</h2>
-                <a href="https://github.com/andrewbreytenbach/coding-game-quiz" class="btn btn-outline-primary">Read more</a>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-sm-12 blogpost">
-        <div class="card">
-            <img src="img/work-day-scheduler.png" class="card-img-top portfolio-img" alt="To Do List">
-            <div class="card-body">
-                <h2 class="card-title">Work Day To-Do List</h2>
-                <a href="https://github.com/andrewbreytenbach/work-day-scheduler" class="btn btn-outline-primary">Read more</a>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-sm-12 blogpost">
-        <div class="card">
-            <img src="img/color-contosocrafts.png" class="card-img-top portfolio-img" alt="ContosoCrafts">
-            <div class="card-body">
-                <h2 class="card-title">ContosoCrafts Website Using .NET</h2>
-                <a href="https://github.com/andrewbreytenbach/contosocraftsbuild" class="btn btn-outline-primary">Read more</a>
+
+            <div class="progress">
+              <span class="skill">jQuery <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
             </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">Node.js <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Express.js <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">React.js <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">SQL <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
         </div>
-    </div>
-</div>
-</section>
-<section class="text-center section-padding contact-wrap" id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="arrow">Contact <span>me</span></h1>
+
       </div>
-    </div>
-    <div class="row contact-details">
-      <div class="col-md-4">
-        <div class="dark-box box-hover">
-          <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
-          <p>Charleston, SC</p>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>Full Stack Web Developer with experience in developing front-end website architecture, creating servers and databases for functionality, ensuring responsiveness of applications, designing and developing APIs, and ensuring cross-platform optimization. Proficient in HTML, CSS, JavaScript, and Node. Adept at collaborating with graphic designers to create visually appealing web designs.</p>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="dark-box box-hover">
-          <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
-          <p>+1 224 409 6724</p>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Andrew Breytenbach</h4>
+              <p><em>Full Stack Web Developer with a passion for solving complex problems and delivering exceptional user experiences.</em></p>
+              <ul>
+                <li>Charleston, SC</li>
+                <li>(224) 409-6724</li>
+                <li>andrewmartinbreytenbach@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Full Stack Web Developer Bootcamp</h4>
+              <h5>2023</h5>
+              <p><em>UNC-Chapel Hill, Chapel Hill, NC</em></p>
+              <p>This part-time coding program curriculum covers front end and back end technologies. Completing the program has given the skills needed to become a full stack web developer.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Master of Divinity</h4>
+              <h5>2019 - 2021</h5>
+              <p><em>Southeastern Baptist Theological Seminary, Wake Forest, NC</em></p>
+              <p>The Master of Divinity program is designed to provide students with a deep understanding of the Christian faith, including its history, theology, and practical application. The program includes courses in biblical studies, church history, theology, ethics, homiletics, and pastoral care, as well as practical ministry experience. It has given me the skills and knowledge needed to serve as a leader in Christian ministry, including preaching, teaching, counseling, and pastoral care.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor of Arts, Accounting</h4>
+              <h5>2015 - 20149</h5>
+              <p><em>Indiana Wesleyan University, Marion, IN</em></p>
+              <p>This accounting degree program encompasses a comprehensive range of accounting principles and practices, including financial accounting, managerial accounting, taxation, auditing, and accounting information systems. By completing this program, I possess the essential skills and knowledge required to pursue a career as a professional accountant.</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Assistant Manager & CrossFit Coach</h4>
+              <h5>2022</h5>
+              <p><em>United Fitness CrossFit, Raleigh, NC </em></p>
+              <ul>
+                <li>Led and supervised group coaching sessions, providing live feedback and cues for improved performance.</li>
+                <li>Developed and maintained professional relationships with clients to enhance their gym experience and ensure continued involvement.</li>
+                <li>Actively engaged in professional development and continuing education.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Young Adults Director</h4>
+              <h5>2020 - 2022</h5>
+              <p><em>The Summit Church, Durham, NC</em></p>
+              <ul>
+                <li>Launched a ministry for young adults (20s and 30s) across all church campuses.</li>
+                <li>Recruited and led a team of guest services coordinator, social media/event coordinator, worship leader,
+                  and volunteers.</li>
+                <li>Planned, executed, and preached at biweekly ministry gatherings, midweek Bible studies, retreats, and short-term mission trips.</li>
+                <li>Wrote and edited a weekly digital email to 1,000 subscribers about current issues and upcoming events related to the ministry.</li>
+                <li>Provided administrative and operational support to the senior pastor (JD Greear) at SBC conferences and events.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Inventory Control and Strategic Operations Associate</h4>
+              <h5>2018-2019</h5>
+              <p><em>Slingshot, Marion, IN </em></p>
+              <ul>
+                <li>Oversaw a returns process with vendors/suppliers and generated $760,000 in company revenue.</li>
+                <li>Collaborated with Accounting, Information Technology, and Product Development teams on various
+                  projects.</li>
+                <li>Conducted data analysis using SQL queries and databases to improve warehouse efficiency.</li>
+              </ul>
+            </div>
+          </div>
         </div>
+
       </div>
-      <div class="col-md-4">
-        <div class="dark-box box-hover">
-          <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
-          <p><a href="index.html#">andrewmartinbreytenbach@gmail.com</a></p>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Take a look at some of the projects I have had the privelage of working on:</p>
         </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="/Users/andrewbreytenbach/personal-portfolio/img/color-WeatherApp.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="/Users/andrewbreytenbach/personal-portfolio/img/color-WeatherApp.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Weather App"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/weather-challenge" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="/Users/andrewbreytenbach/personal-portfolio/img/work-day-scheduler.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="/Users/andrewbreytenbach/personal-portfolio/img/work-day-scheduler.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Work Day Scheduler"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/work-day-scheduler" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="/Users/andrewbreytenbach/personal-portfolio/img/Password.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="/Users/andrewbreytenbach/personal-portfolio/img/Password.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Password Generator"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/Password-Generator" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="/Users/andrewbreytenbach/personal-portfolio/img/color-quiz.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="/Users/andrewbreytenbach/personal-portfolio/img/color-quiz.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="JavaScript Quiz Game"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/coding-game-quiz" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="/Users/andrewbreytenbach/personal-portfolio/img/Match.com.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="/Users/andrewbreytenbach/personal-portfolio/img/Match.com.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="The Other Match.com"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/movie-book-match" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="/Users/andrewbreytenbach/personal-portfolio/img/Screenshot 2023-04-10 at 10.36.54 AM.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="/Users/andrewbreytenbach/personal-portfolio/img/Screenshot 2023-04-10 at 10.36.54 AM.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Fletcher Furnishings"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/fletcher-furnishings" title="Github Repo"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Fill out this form to get in touch with me:</p>
+        </div>
+
+      
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Andrew Breytenbach</span></strong>
       </div>
     </div>
-    <br>
-</section>
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <p>All Rights Reserved. &copy; 2023 Andrew Breytenbach</p>
-      </div>
-    </div>
-  </div>
-</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/classie.js"></script>
-<script src="assets/flexslider/jquery.flexslider.js"></script>
-<script src="js/modernizr.js"></script>
-<script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
-<script src="assets/lightbox/js/lightbox.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/script.js"></script>
-<script type="text/javascript">
-  $(".rotate").textrotator({
-    animation: "fade",
-    separator: ",",
-    speed: 2000
-  });
-</script>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
